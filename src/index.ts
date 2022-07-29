@@ -10,6 +10,7 @@ type Params = {
 }
 
 export type Coin = {
+  id: number,
   network: string,
   ticker: string,
   title?: string,
