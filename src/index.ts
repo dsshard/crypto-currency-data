@@ -34,7 +34,10 @@ export type Coin = {
 
 const byContracts = {}
 const byNetworks = {}
+const byIds = {}
+
 for (const coin of data) {
+  byIds[coin.id] = coin
   if (coin.smart_contract) {
     const key = `${coin.network}${coin.smart_contract.toLowerCase()}`
     byContracts[key] = coin
@@ -44,7 +47,7 @@ for (const coin of data) {
   }
 }
 
-export function getCryptoCurrencyData (
+export function findCryptoCurrencyData (
   { ticker, network, contract }: Params
 ): Coin | null {
   if (contract && byContracts[contract.toLowerCase()]) {
@@ -55,8 +58,16 @@ export function getCryptoCurrencyData (
   return prepareInformation(byNetworks[key])
 }
 
-export function validateCryptoAddress (address: string, params: Params): boolean | null {
-  const coin = getCryptoCurrencyData(params)
+export function getCryptoCurrencyDataById (id: number): Coin {
+  return byIds[id] || null
+}
+
+export function validateCryptoAddress (address: string, params: Params | Coin): boolean | null {
+  if (typeof (params as Coin)?.regex_address !== 'undefined') {
+    const reg = new RegExp((params as Coin).regex_address)
+    return reg.test(address)
+  }
+  const coin = findCryptoCurrencyData(params)
   if (coin) {
     if (!coin.regex_extra_id) return null
     const reg = new RegExp(coin.regex_address)
@@ -65,8 +76,12 @@ export function validateCryptoAddress (address: string, params: Params): boolean
   return null
 }
 
-export function validateCryptoExtraId (extraId: string, params: Params) {
-  const coin = getCryptoCurrencyData(params)
+export function validateCryptoExtraId (extraId: string, params: Params | Coin) {
+  if (typeof (params as Coin)?.regex_extra_id !== 'undefined') {
+    const reg = new RegExp((params as Coin).regex_extra_id)
+    return reg.test(extraId)
+  }
+  const coin = findCryptoCurrencyData(params)
   if (coin) {
     if (!coin.regex_extra_id) return null
     const reg = new RegExp(coin.regex_extra_id)
@@ -75,7 +90,10 @@ export function validateCryptoExtraId (extraId: string, params: Params) {
   return null
 }
 
-export function getCryptoCoinDecimals (params: Params): number {
-  const coin = getCryptoCurrencyData(params)
+export function getCryptoCoinDecimals (params: Params | Coin): number {
+  if (typeof (params as Coin)?.decimals_main !== 'undefined') {
+    return (params as Coin).decimals_main
+  }
+  const coin = findCryptoCurrencyData(params)
   return coin.decimals_main
 }

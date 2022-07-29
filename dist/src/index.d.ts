@@ -25,8 +25,9 @@ export declare type Coin = {
     algorithm?: string;
     color?: string;
 };
-export declare function getCryptoCurrencyData({ ticker, network, contract }: Params): Coin | null;
-export declare function validateCryptoAddress(address: string, params: Params): boolean | null;
-export declare function validateCryptoExtraId(extraId: string, params: Params): boolean;
-export declare function getCryptoCoinDecimals(params: Params): number;
+export declare function findCryptoCurrencyData({ ticker, network, contract }: Params): Coin | null;
+export declare function getCryptoCurrencyDataById(id: number): Coin;
+export declare function validateCryptoAddress(address: string, params: Params | Coin): boolean | null;
+export declare function validateCryptoExtraId(extraId: string, params: Params | Coin): boolean;
+export declare function getCryptoCoinDecimals(params: Params | Coin): number;
 export {};
