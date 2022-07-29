@@ -21,7 +21,7 @@ declare type Coin = {
 };
 export declare function getCryptoCurrencyData({ ticker, network, contract }: {
     ticker?: string;
-    network?: string;
+    network: string;
     contract?: string;
 }): Coin;
 export {};

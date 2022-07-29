@@ -29,7 +29,8 @@ const byContracts = {}
 const byNetworks = {}
 for (const coin of data) {
   if (coin.smart_contract) {
-    byContracts[coin.smart_contract.toLowerCase()] = coin
+    const key = `${coin.network}${coin.smart_contract.toLowerCase()}`
+    byContracts[key] = coin
   } else {
     const key = `${coin.ticker}${coin.network}`
     byNetworks[key] = coin
@@ -37,10 +38,11 @@ for (const coin of data) {
 }
 
 export function getCryptoCurrencyData (
-  { ticker, network, contract }: { ticker?: string, network?: string, contract?: string }
+  { ticker, network, contract }: { ticker?: string, network: string, contract?: string }
 ): Coin {
   if (contract && byContracts[contract.toLowerCase()]) {
-    return prepareInformation(byContracts[contract.toLowerCase()])
+    const key = `${network}${contract.toLowerCase()}`
+    return prepareInformation(byContracts[key])
   }
   const key = `${ticker}${network}`
   return prepareInformation(byNetworks[key])
