@@ -1,4 +1,10 @@
-declare type Coin = {
+declare type Params = {
+    ticker?: string;
+    network: string;
+    contract?: string;
+};
+export declare type Coin = {
+    id: number;
     network: string;
     ticker: string;
     title?: string;
@@ -19,9 +25,8 @@ declare type Coin = {
     algorithm?: string;
     color?: string;
 };
-export declare function getCryptoCurrencyData({ ticker, network, contract }: {
-    ticker?: string;
-    network: string;
-    contract?: string;
-}): Coin;
+export declare function getCryptoCurrencyData({ ticker, network, contract }: Params): Coin | null;
+export declare function validateCryptoAddress(address: string, params: Params): boolean | null;
+export declare function validateCryptoExtraId(extraId: string, params: Params): boolean;
+export declare function getCryptoCoinDecimals(params: Params): number;
 export {};
