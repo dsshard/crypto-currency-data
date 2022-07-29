@@ -1,0 +1,32 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.prepareInformation = void 0;
+function prepareInformation(item) {
+    if (!item)
+        return null;
+    if (item.network === 'eth' && item.is_token) {
+        Object.assign(item, {
+            regex_address: '^(0x)[0-9A-Fa-f]{40}$',
+            url_block: 'https://etherscan.io/block/',
+            url_address: 'https://etherscan.io/address/'
+        });
+    }
+    if (item.network === 'bsc' && item.is_token) {
+        Object.assign(item, {
+            regex_address: '^(0x)[0-9A-Fa-f]{40}$',
+            url_block: 'https://bscscan.com/block/',
+            url_address: 'https://bscscan.com/address/'
+        });
+    }
+    if (item.network === 'bnb' && item.is_token) {
+        Object.assign(item, {
+            regex_address: '^(bnb1)[0-9a-z]{38}$',
+            regex_extra_id: '^[0-9A-Za-z\\-_]{1,120}$',
+            extra_id_title: 'MEMO',
+            url_block: 'https://binance.mintscan.io/blocks/',
+            url_address: 'https://binance.mintscan.io/account/'
+        });
+    }
+    return item;
+}
+exports.prepareInformation = prepareInformation;
