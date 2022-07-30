@@ -20,6 +20,14 @@ function prepareInformation(item) {
             url_tx: 'https://bscscan.com/tx/'
         });
     }
+    if (item.network === 'trx' && item.is_token) {
+        Object.assign(item, {
+            regex_address: '^T[1-9A-HJ-NP-Za-km-z]{33}$',
+            url_block: 'https://tronscan.org/#/block/',
+            url_address: 'https://tronscan.org/#/address/',
+            url_tx: 'https://tronscan.org/#/transaction/'
+        });
+    }
     if (item.network === 'bnb' && item.is_token) {
         Object.assign(item, {
             regex_address: '^(bnb1)[0-9a-z]{38}$',
