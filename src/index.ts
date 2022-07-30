@@ -47,14 +47,13 @@ for (const coin of data) {
   }
 }
 
-export function findCryptoCurrencyData (
-  { ticker, network, contract }: Params
-): Coin | null {
-  if (contract && byContracts[contract.toLowerCase()]) {
-    const key = `${network}${contract.toLowerCase()}`
+export function findCryptoCurrencyData ({ ticker, network, contract }: Params): Coin | null {
+  let key = `${network}${contract?.toLowerCase()}`
+  if (contract && byContracts[key]) {
     return prepareInformation(byContracts[key])
   }
-  const key = `${ticker}${network}`
+  if (!ticker) return null
+  key = `${ticker}${network}`
   return prepareInformation(byNetworks[key])
 }
 
@@ -63,6 +62,7 @@ export function getCryptoCurrencyDataById (id: number): Coin {
 }
 
 export function validateCryptoAddress (address: string, params: Params | Coin): boolean | null {
+  if (!params) return null
   if (typeof (params as Coin)?.regex_address !== 'undefined') {
     const reg = new RegExp((params as Coin).regex_address)
     return reg.test(address)
@@ -77,6 +77,7 @@ export function validateCryptoAddress (address: string, params: Params | Coin): 
 }
 
 export function validateCryptoExtraId (extraId: string, params: Params | Coin) {
+  if (!params) return null
   if (typeof (params as Coin)?.regex_extra_id !== 'undefined') {
     const reg = new RegExp((params as Coin).regex_extra_id)
     return reg.test(extraId)

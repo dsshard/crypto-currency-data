@@ -1,5 +1,10 @@
 # Crypto currency data information
 
+**Description**
+
+🚀 Get 3000+ crypto currency information. Decimals, descriptions, website, contract ane etc...!
+
+
 **Install**
 
 ```shell
@@ -19,11 +24,40 @@ const { findCryptoCurrencyData } = require('@coxy/crypto-currency-data');
 ```
 
 ```javascript
-const eth = new findCryptoCurrencyData({ ticker: 'eth', network: 'eth' });
-const tether = new findCryptoCurrencyData({ network: 'eth', contract: '0xdac17f958d2ee523a2206206994597c13d831ec7' });
-const inch = new getCryptoCurrencyDataById(1);
+const eth = findCryptoCurrencyData({ ticker: 'eth', network: 'eth' });
+const tether = findCryptoCurrencyData({ network: 'eth', contract: '0xdac17f958d2ee523a2206206994597c13d831ec7' });
+const inch = getCryptoCurrencyDataById(1);
+
+console.log(validateCryptoAddress('0xdac17f958d2ee523a2206206994597c13d831ec7', tether))
 
 console.log(eth) // eth coin information
 console.log(tether) // tether token information
 console.log(inch) // inch token information
+```
+
+Provide information by coin
+
+```typescript
+type Coin = {
+  id: number,
+  network: string,
+  ticker: string,
+  title?: string,
+  regex_address?:string,
+  regex_extra_id?: string,
+  extra_id_title?: string,
+  url_block?: string,
+  url_address?: string,
+  is_token: boolean,
+  launch_data?: string,
+  description?: string,
+  web_site?: string,
+  decimals_main: number,
+  decimals_display?: number,
+  smart_contract?: string,
+  max_supply?: number,
+  proof_type?: string,
+  algorithm?: string,
+  color?: string
+}
 ```
