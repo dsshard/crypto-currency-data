@@ -45,11 +45,11 @@ type Coin = {
   regex_address:string,
   is_token: boolean,
   decimals_main: number,
+  title: string,
   // only for tokens
   smart_contract?: string,
   
   // optional
-  title?: string,
   regex_extra_id?: string,
   extra_id_title?: string,
   url_block?: string,

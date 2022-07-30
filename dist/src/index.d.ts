@@ -7,12 +7,13 @@ export declare type Coin = {
     id: number;
     network: string;
     ticker: string;
-    title?: string;
+    title: string;
     regex_address: string;
     regex_extra_id?: string;
     extra_id_title?: string;
     url_block?: string;
     url_address?: string;
+    url_tx?: string;
     is_token: boolean;
     launch_data?: string;
     description?: string;
