@@ -8,7 +8,7 @@ export declare type Coin = {
     network: string;
     ticker: string;
     title?: string;
-    regex_address?: string;
+    regex_address: string;
     regex_extra_id?: string;
     extra_id_title?: string;
     url_block?: string;
