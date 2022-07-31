@@ -1,10 +1,9 @@
-declare type Params = {
+export declare type Params = {
     ticker?: string;
     network: string;
     contract?: string;
 };
-export declare type Coin = {
-    id: number;
+export declare type SharedData = {
     network: string;
     ticker: string;
     title: string;
@@ -14,21 +13,17 @@ export declare type Coin = {
     url_block?: string;
     url_address?: string;
     url_tx?: string;
-    is_token: boolean;
-    launch_data?: string;
-    description?: string;
-    web_site?: string;
-    decimals_main: number;
-    decimals_display?: number;
-    smart_contract?: string;
-    max_supply?: number;
-    proof_type?: string;
-    algorithm?: string;
-    color?: string;
+    contract?: string;
 };
+export interface Coin extends SharedData {
+    id: number;
+    decimals: number;
+    decimals_display?: number;
+    color?: string;
+}
+export declare function getAllByNetwork(network: string): Coin[];
+export declare function getAllCoins(): Coin[];
 export declare function findCryptoCurrencyData({ ticker, network, contract }: Params): Coin | null;
 export declare function getCryptoCurrencyDataById(id: number): Coin;
 export declare function validateCryptoAddress(address: string, params: Params | Coin): boolean | null;
 export declare function validateCryptoExtraId(extraId: string, params: Params | Coin): boolean;
-export declare function getCryptoCoinDecimals(params: Params | Coin): number;
-export {};

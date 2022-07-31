@@ -39,3 +39,22 @@ export function prepareInformation (item) {
   }
   return item
 }
+
+export function prepareList (list) {
+  const byContracts = {}
+  const byNetworks = {}
+  const byIds = {}
+
+  for (const coin of list) {
+    if (coin.id) {
+      byIds[coin.id] = coin
+    }
+    if (coin.contract) {
+      const key = `${coin.network}${coin.contract.toLowerCase()}`
+      byContracts[key] = coin
+    }
+    const key = `${coin.ticker}${coin.network}`
+    byNetworks[key] = coin
+  }
+  return { byContracts, byNetworks, byIds }
+}

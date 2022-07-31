@@ -3,23 +3,18 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getCryptoCoinDecimals = exports.validateCryptoExtraId = exports.validateCryptoAddress = exports.getCryptoCurrencyDataById = exports.findCryptoCurrencyData = void 0;
-const result_json_1 = __importDefault(require("./result.json"));
+exports.validateCryptoExtraId = exports.validateCryptoAddress = exports.getCryptoCurrencyDataById = exports.findCryptoCurrencyData = exports.getAllCoins = exports.getAllByNetwork = void 0;
+const information_coins_json_1 = __importDefault(require("./information-coins.json"));
 const lib_1 = require("./lib");
-const byContracts = {};
-const byNetworks = {};
-const byIds = {};
-for (const coin of result_json_1.default) {
-    byIds[coin.id] = coin;
-    if (coin.smart_contract) {
-        const key = `${coin.network}${coin.smart_contract.toLowerCase()}`;
-        byContracts[key] = coin;
-    }
-    else {
-        const key = `${coin.ticker}${coin.network}`;
-        byNetworks[key] = coin;
-    }
+const { byNetworks, byContracts, byIds } = (0, lib_1.prepareList)(information_coins_json_1.default);
+function getAllByNetwork(network) {
+    return Object.values(byNetworks).filter((el) => el.network === network) || [];
 }
+exports.getAllByNetwork = getAllByNetwork;
+function getAllCoins() {
+    return Object.values(byNetworks).filter((el) => el.network === el.ticker);
+}
+exports.getAllCoins = getAllCoins;
 function findCryptoCurrencyData({ ticker, network, contract }) {
     let key = `${network}${contract === null || contract === void 0 ? void 0 : contract.toLowerCase()}`;
     if (contract && byContracts[key]) {
@@ -69,11 +64,3 @@ function validateCryptoExtraId(extraId, params) {
     return null;
 }
 exports.validateCryptoExtraId = validateCryptoExtraId;
-function getCryptoCoinDecimals(params) {
-    if (typeof (params === null || params === void 0 ? void 0 : params.decimals_main) !== 'undefined') {
-        return params.decimals_main;
-    }
-    const coin = findCryptoCurrencyData(params);
-    return coin.decimals_main;
-}
-exports.getCryptoCoinDecimals = getCryptoCoinDecimals;

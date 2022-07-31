@@ -14,7 +14,8 @@
     "noUnusedParameters": false,
     "resolveJsonModule": true,
     "outDir": "./dist",
-    "baseUrl": "./src",
+    "rootDir": "src",
+    "baseUrl": "./src"
   },
   "include": ["./src/**/*", "./src/**/*.json"],
   "exclude": [

@@ -1,16 +1,15 @@
 /* eslint-disable camelcase */
 
-import data from './result.json'
-import { prepareInformation } from './lib'
+import data from './information-coins.json'
+import { prepareInformation, prepareList } from './lib'
 
-type Params = {
+export type Params = {
   ticker?: string,
   network: string,
   contract?: string
 }
 
-export type Coin = {
-  id: number,
+export type SharedData = {
   network: string,
   ticker: string,
   title: string,
@@ -20,32 +19,24 @@ export type Coin = {
   url_block?: string,
   url_address?: string,
   url_tx?: string,
-  is_token: boolean,
-  launch_data?: string,
-  description?: string,
-  web_site?: string,
-  decimals_main: number,
+  contract?: string
+}
+
+export interface Coin extends SharedData {
+  id: number,
+  decimals: number,
   decimals_display?: number,
-  smart_contract?: string,
-  max_supply?: number,
-  proof_type?: string,
-  algorithm?: string,
   color?: string
 }
 
-const byContracts = {}
-const byNetworks = {}
-const byIds = {}
+const { byNetworks, byContracts, byIds } = prepareList(data)
 
-for (const coin of data) {
-  byIds[coin.id] = coin
-  if (coin.smart_contract) {
-    const key = `${coin.network}${coin.smart_contract.toLowerCase()}`
-    byContracts[key] = coin
-  } else {
-    const key = `${coin.ticker}${coin.network}`
-    byNetworks[key] = coin
-  }
+export function getAllByNetwork (network: string): Coin[] {
+  return Object.values(byNetworks).filter((el: Coin) => el.network === network) as Coin[] || []
+}
+
+export function getAllCoins () {
+  return Object.values(byNetworks).filter((el: Coin) => el.network === el.ticker) as Coin[]
 }
 
 export function findCryptoCurrencyData ({ ticker, network, contract }: Params): Coin | null {
@@ -90,13 +81,5 @@ export function validateCryptoExtraId (extraId: string, params: Params | Coin) {
     return reg.test(extraId)
   }
   return null
-}
-
-export function getCryptoCoinDecimals (params: Params | Coin): number {
-  if (typeof (params as Coin)?.decimals_main !== 'undefined') {
-    return (params as Coin).decimals_main
-  }
-  const coin = findCryptoCurrencyData(params)
-  return coin.decimals_main
 }
 

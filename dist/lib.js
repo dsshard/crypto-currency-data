@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.prepareInformation = void 0;
+exports.prepareList = exports.prepareInformation = void 0;
 function prepareInformation(item) {
     if (!item)
         return null;
@@ -41,3 +41,21 @@ function prepareInformation(item) {
     return item;
 }
 exports.prepareInformation = prepareInformation;
+function prepareList(list) {
+    const byContracts = {};
+    const byNetworks = {};
+    const byIds = {};
+    for (const coin of list) {
+        if (coin.id) {
+            byIds[coin.id] = coin;
+        }
+        if (coin.contract) {
+            const key = `${coin.network}${coin.contract.toLowerCase()}`;
+            byContracts[key] = coin;
+        }
+        const key = `${coin.ticker}${coin.network}`;
+        byNetworks[key] = coin;
+    }
+    return { byContracts, byNetworks, byIds };
+}
+exports.prepareList = prepareList;
