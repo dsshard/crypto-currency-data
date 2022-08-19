@@ -2,7 +2,7 @@
     {
         "network": "bsc",
         "ticker": "1inch",
-        "title": "1inch (1INCH)",
+        "title": "1inch",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x111111111117dC0aa78b770fA6A738034120C302",
@@ -12,7 +12,7 @@
     {
         "network": "eth",
         "ticker": "1inch",
-        "title": "1inch (1INCH)",
+        "title": "1inch",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x111111111117dc0aa78b770fa6a738034120c302",
@@ -22,7 +22,7 @@
     {
         "network": "bsc",
         "ticker": "aave",
-        "title": "Aave (AAVE)",
+        "title": "Aave",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xfb6115445Bff7b52FeB98650C87f44907E58f802",
@@ -32,7 +32,7 @@
     {
         "network": "eth",
         "ticker": "aave",
-        "title": "Aave (AAVE)",
+        "title": "Aave",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
@@ -42,7 +42,7 @@
     {
         "network": "aca",
         "ticker": "aca",
-        "title": "Acala (ACA)",
+        "title": "Acala",
         "regex_address": "^[0-9a-z-A-Z]{44,50}$",
         "url_block": "https://acala.subscan.io/block/",
         "url_address": "https://acala.subscan.io/account/",
@@ -55,7 +55,7 @@
     {
         "network": "bsc",
         "ticker": "ach",
-        "title": "Alchemy Pay (ACH)",
+        "title": "Alchemy Pay",
         "decimals": 8,
         "decimals_display": 5,
         "contract": "0xBc7d6B50616989655AfD682fb42743507003056D",
@@ -65,7 +65,7 @@
     {
         "network": "eth",
         "ticker": "ach",
-        "title": "Alchemy Pay (ACH)",
+        "title": "Alchemy Pay",
         "decimals": 8,
         "decimals_display": 5,
         "contract": "0xed04915c23f00a313a544955524eb7dbd823143d",
@@ -75,7 +75,7 @@
     {
         "network": "bsc",
         "ticker": "ada",
-        "title": "Cardano (ADA)",
+        "title": "Cardano",
         "decimals": 18,
         "decimals_display": 6,
         "contract": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
@@ -98,7 +98,7 @@
     {
         "network": "eth",
         "ticker": "adx",
-        "title": "Ambire Adex (ADX)",
+        "title": "Ambire Adex",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xADE00C28244d5CE17D72E40330B1c318cD12B7c3",
@@ -117,7 +117,7 @@
     {
         "network": "eth",
         "ticker": "agld",
-        "title": "Adventure Gold (AGLD)",
+        "title": "Adventure Gold",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x32353a6c91143bfd6c7d363b546e62a9a2489a20",
@@ -144,7 +144,7 @@
     {
         "network": "eth",
         "ticker": "alcx",
-        "title": "Alchemix (ALCX)",
+        "title": "Alchemix",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xdbdb4d16eda451d0503b854cf79d55697f90c8df",
@@ -167,7 +167,7 @@
     {
         "network": "bsc",
         "ticker": "alice",
-        "title": "My Neighbor Alice (ALICE)",
+        "title": "My Neighbor Alice",
         "decimals": 6,
         "decimals_display": 5,
         "contract": "0xAC51066d7bEC65Dc4589368da368b212745d63E8",
@@ -177,7 +177,7 @@
     {
         "network": "eth",
         "ticker": "alice",
-        "title": "My Neighbor Alice (ALICE)",
+        "title": "My Neighbor Alice",
         "decimals": 6,
         "decimals_display": 5,
         "contract": "0xac51066d7bec65dc4589368da368b212745d63e8",
@@ -231,7 +231,7 @@
     {
         "network": "bsc",
         "ticker": "ankr",
-        "title": "Ankr (ANKR)",
+        "title": "Ankr",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xf307910A4c7bbc79691fD374889b36d8531B08e3",
@@ -241,7 +241,7 @@
     {
         "network": "eth",
         "ticker": "ankr",
-        "title": "Ankr (ANKR)",
+        "title": "Ankr",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
@@ -251,7 +251,7 @@
     {
         "network": "eth",
         "ticker": "ant",
-        "title": "Aragon (ANT)",
+        "title": "Aragon",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xa117000000f279d81a1d3cc75430faa017fa5a2e",
@@ -261,7 +261,7 @@
     {
         "network": "eth",
         "ticker": "ape",
-        "title": "ApeCoin (APE)",
+        "title": "ApeCoin",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x4d224452801ACEd8B2F0aebE155379bb5D594381",
@@ -271,7 +271,7 @@
     {
         "network": "eth",
         "ticker": "api3",
-        "title": "API3 (API3)",
+        "title": "API3",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x0b38210ea11411557c13457d4da7dc6ea731b88a",
@@ -301,7 +301,7 @@
     {
         "network": "eth",
         "ticker": "arpa",
-        "title": "Arpa Chain (ARPA)",
+        "title": "Arpa Chain",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xba50933c268f567bdc86e1ac131be072c6b0b71a",
@@ -320,7 +320,7 @@
     {
         "network": "astr",
         "ticker": "astr",
-        "title": "Astar (ASTR)",
+        "title": "Astar",
         "regex_address": "^[0-9a-z-A-Z]{44,50}$",
         "url_block": "https://astar.subscan.io/block/",
         "url_address": "https://astar.subscan.io/account/",
@@ -351,7 +351,7 @@
     {
         "network": "bsc",
         "ticker": "atom",
-        "title": "Cosmos (ATOM)",
+        "title": "Cosmos",
         "decimals": 18,
         "decimals_display": 6,
         "contract": "0x0Eb3a705fc54725037CC9e008bDede697f62F335",
@@ -385,7 +385,7 @@
     {
         "network": "eth",
         "ticker": "audio",
-        "title": "Audius (AUDIO)",
+        "title": "Audius",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x18aaa7115705e8be94bffebde57af9bfc265b998",
@@ -412,7 +412,7 @@
     {
         "network": "bsc",
         "ticker": "avax",
-        "title": "Avalanche (AVAX)",
+        "title": "Avalanche",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x96412902aa9aFf61E13f085e70D3152C6ef2a817",
@@ -436,7 +436,7 @@
     {
         "network": "bsc",
         "ticker": "axs",
-        "title": "Axie Infinity Shards (AXS)",
+        "title": "Axie Infinity Shards",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x715D400F88C167884bbCc41C5FeA407ed4D2f8A0",
@@ -446,7 +446,7 @@
     {
         "network": "eth",
         "ticker": "axs",
-        "title": "Axie Infinity Shards (AXS)",
+        "title": "Axie Infinity Shards",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b",
@@ -456,7 +456,7 @@
     {
         "network": "eth",
         "ticker": "badger",
-        "title": "Badger DAO (BADGER)",
+        "title": "Badger DAO",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x3472A5A71965499acd81997a54BBA8D852C6E53d",
@@ -475,7 +475,7 @@
     {
         "network": "eth",
         "ticker": "bal",
-        "title": "Balancer (BAL)",
+        "title": "Balancer",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xba100000625a3754423978a60c9317c58a424e3D",
@@ -485,7 +485,7 @@
     {
         "network": "bsc",
         "ticker": "band",
-        "title": "Band Protocol (BAND)",
+        "title": "Band Protocol",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xAD6cAEb32CD2c308980a548bD0Bc5AA4306c6c18",
@@ -495,7 +495,7 @@
     {
         "network": "band",
         "ticker": "band",
-        "title": "Band Protocol (BAND)",
+        "title": "Band Protocol",
         "regex_address": "^(band1)[0-9a-z]{38}$",
         "regex_extra_id": "^[0-9A-Za-z\\-_]{1,120}$",
         "extra_id_title": "MEMO",
@@ -510,7 +510,7 @@
     {
         "network": "eth",
         "ticker": "band",
-        "title": "Band Protocol (BAND)",
+        "title": "Band Protocol",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
@@ -520,7 +520,7 @@
     {
         "network": "eth",
         "ticker": "bat",
-        "title": "Basic Attention Token (BAT)",
+        "title": "Basic Attention Token",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
@@ -530,7 +530,7 @@
     {
         "network": "bsc",
         "ticker": "bch",
-        "title": "Bitcoin Cash (BCH)",
+        "title": "Bitcoin Cash",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf",
@@ -580,7 +580,7 @@
     {
         "network": "eth",
         "ticker": "bico",
-        "title": "Biconomy (BICO)",
+        "title": "Biconomy",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xf17e65822b568b3903685a7c9f496cf7656cc6c2",
@@ -621,7 +621,7 @@
     {
         "network": "eth",
         "ticker": "bnt",
-        "title": "Bancor (BNT)",
+        "title": "Bancor",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c",
@@ -649,7 +649,7 @@
     {
         "network": "eth",
         "ticker": "bond",
-        "title": "Barnbridge (BOND)",
+        "title": "Barnbridge",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x0391D2021f89DC339F60Fff84546EA23E337750f",
@@ -850,7 +850,7 @@
     {
         "network": "eth",
         "ticker": "chr",
-        "title": "Chromia (CHR)",
+        "title": "Chromia",
         "decimals": 6,
         "decimals_display": 5,
         "contract": "0x8a2279d4a90b6fe1c4b30fa660cc9f926797baa2",
@@ -860,7 +860,7 @@
     {
         "network": "eth",
         "ticker": "chz",
-        "title": "Chiliz (CHZ)",
+        "title": "Chiliz",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x3506424F91fD33084466F402d5D97f05F8e3b4AF",
@@ -895,7 +895,7 @@
     {
         "network": "bsc",
         "ticker": "comp",
-        "title": "Compound (COMP)",
+        "title": "Compound",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x52CE071Bd9b1C4B00A0b92D298c512478CaD67e8",
@@ -905,7 +905,7 @@
     {
         "network": "eth",
         "ticker": "comp",
-        "title": "Compound (COMP)",
+        "title": "Compound",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xc00e94cb662c3520282e6f5717214004a7f26888",
@@ -933,7 +933,7 @@
     {
         "network": "eth",
         "ticker": "coti",
-        "title": "COTI (COTI)",
+        "title": "COTI",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xDDB3422497E61e13543BeA06989C0789117555c5",
@@ -969,7 +969,7 @@
     {
         "network": "eth",
         "ticker": "crv",
-        "title": "Curve DAO Token (CRV)",
+        "title": "Curve DAO Token",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xD533a949740bb3306d119CC777fa900bA034cd52",
@@ -979,7 +979,7 @@
     {
         "network": "bsc",
         "ticker": "ctsi",
-        "title": "Cartesi (CTSI)",
+        "title": "Cartesi",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x8dA443F84fEA710266C8eB6bC34B71702d033EF2",
@@ -989,7 +989,7 @@
     {
         "network": "eth",
         "ticker": "ctsi",
-        "title": "Cartesi (CTSI)",
+        "title": "Cartesi",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x491604c0fdf08347dd1fa4ee062a822a5dd06b5d",
@@ -999,7 +999,7 @@
     {
         "network": "eth",
         "ticker": "cvc",
-        "title": "Civic (CVC)",
+        "title": "Civic",
         "decimals": 8,
         "decimals_display": 5,
         "contract": "0x41e5560054824ea6b0732e656e3ad64e20e94e45",
@@ -1018,7 +1018,7 @@
     {
         "network": "eth",
         "ticker": "cvx",
-        "title": "Convex (CVX)",
+        "title": "Convex",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b",
@@ -1028,7 +1028,7 @@
     {
         "network": "eth",
         "ticker": "dai",
-        "title": "Dai (DAI)",
+        "title": "Dai",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x6b175474e89094c44da98b954eedeac495271d0f",
@@ -1121,7 +1121,7 @@
     {
         "network": "eth",
         "ticker": "dent",
-        "title": "Dent (DENT)",
+        "title": "Dent",
         "decimals": 8,
         "decimals_display": 5,
         "contract": "0x3597bfd533a99c9aa083587b074434e61eb0a258",
@@ -1182,7 +1182,7 @@
     {
         "network": "bsc",
         "ticker": "doge",
-        "title": "Dogecoin (DOGE)",
+        "title": "Dogecoin",
         "decimals": 8,
         "decimals_display": 2,
         "contract": "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
@@ -1205,7 +1205,7 @@
     {
         "network": "bsc",
         "ticker": "dot",
-        "title": "Polkadot (DOT)",
+        "title": "Polkadot",
         "decimals": 18,
         "decimals_display": 8,
         "contract": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
@@ -1255,7 +1255,7 @@
     {
         "network": "eth",
         "ticker": "dydx",
-        "title": "dYdX (DYDX)",
+        "title": "dYdX",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x92D6C1e31e14520e676a687F0a93788B716BEff5",
@@ -1282,7 +1282,7 @@
     {
         "network": "egld",
         "ticker": "egld",
-        "title": "Elrond (EGLD)",
+        "title": "Elrond",
         "regex_address": "^(erd)[a-z-A-Z0-9]{59}$",
         "url_block": "https://explorer.elrond.com/miniblocks/",
         "url_address": "https://explorer.elrond.com/address/",
@@ -1340,7 +1340,7 @@
     {
         "network": "eth",
         "ticker": "enj",
-        "title": "Enjin (ENJ)",
+        "title": "Enjin",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c",
@@ -1350,7 +1350,7 @@
     {
         "network": "eth",
         "ticker": "ens",
-        "title": "Ethereum Naming Service (ENS)",
+        "title": "Ethereum Naming Service",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72",
@@ -1368,7 +1368,7 @@
     {
         "network": "bsc",
         "ticker": "eos",
-        "title": "EOS (EOS)",
+        "title": "EOS",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6",
@@ -1393,7 +1393,7 @@
     {
         "network": "bsc",
         "ticker": "eps",
-        "title": "Ellipsis (OLD)",
+        "title": "Ellipsis",
         "decimals": 18,
         "contract": "0xA7f552078dcC247C2684336020c03648500C6d9F",
         "color": "#000000",
@@ -1411,7 +1411,7 @@
     {
         "network": "bsc",
         "ticker": "etc",
-        "title": "Ethereum Classic (ETC)",
+        "title": "Ethereum Classic",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x3d6545b08693daE087E957cb1180ee38B9e3c25E",
@@ -1445,6 +1445,19 @@
         "id": 147
     },
     {
+        "network": "bsc",
+        "ticker": "bsc",
+        "title": "Binance Smart Chain",
+        "regex_address": "^(0x)[0-9A-Fa-f]{40}$",
+        "url_block": "https://bscscan.io/block/",
+        "url_address": "https://bscscan.io/address/",
+        "url_tx": "https://bscscan.io/tx/",
+        "decimals": 18,
+        "decimals_display": 5,
+        "color": "#3C3C3D",
+        "id": 147
+    },
+    {
         "network": "eth",
         "ticker": "evx",
         "title": "Everex",
@@ -1456,7 +1469,7 @@
     {
         "network": "bsc",
         "ticker": "farm",
-        "title": "Harvest (FARM)",
+        "title": "Harvest",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x4B5C23cac08a567ecf0c1fFcA8372A45a5D33743",
@@ -1466,7 +1479,7 @@
     {
         "network": "eth",
         "ticker": "farm",
-        "title": "Harvest (FARM)",
+        "title": "Harvest",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xa0246c9032bC3A600820415aE600c6388619A14D",
@@ -1476,7 +1489,7 @@
     {
         "network": "fet",
         "ticker": "fet",
-        "title": "Fetch.ai (FET)",
+        "title": "Fetch.ai",
         "regex_address": "^(fetch1)[0-9a-z]{38}$",
         "regex_extra_id": "^[0-9A-Za-z\\-_]{1,120}$",
         "extra_id_title": "MEMO",
@@ -1491,7 +1504,7 @@
     {
         "network": "eth",
         "ticker": "fet",
-        "title": "Fetch.ai (FET)",
+        "title": "Fetch.ai",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85",
@@ -1501,7 +1514,7 @@
     {
         "network": "bsc",
         "ticker": "fil",
-        "title": "Filecoin (FIL)",
+        "title": "Filecoin",
         "decimals": 18,
         "decimals_display": 6,
         "contract": "0x0D8Ce2A99Bb6e3B7Db580eD848240e4a0F9aE153",
@@ -1524,7 +1537,7 @@
     {
         "network": "eth",
         "ticker": "fis",
-        "title": "Stafi Protocol (FIS)",
+        "title": "Stafi Protocol",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xef3A930e1FfFFAcd2fc13434aC81bD278B0ecC8d",
@@ -1547,7 +1560,7 @@
     {
         "network": "flow",
         "ticker": "flow",
-        "title": "Flow (FLOW)",
+        "title": "Flow",
         "regex_address": "^(0x)[0-9A-Fa-f]{16}$",
         "url_block": "https://flow.bigdipper.live/block/",
         "url_address": "https://flowscan.org/account/",
@@ -1596,7 +1609,7 @@
     {
         "network": "eth",
         "ticker": "forth",
-        "title": "Ampleforth Governance Token (FORTH)",
+        "title": "Ampleforth Governance Token",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x77fba179c79de5b7653f68b5039af940ada60ce0",
@@ -1624,7 +1637,7 @@
     {
         "network": "ftm",
         "ticker": "ftm",
-        "title": "Fantom (FTM)",
+        "title": "Fantom",
         "regex_address": "^(0x)[0-9A-Fa-f]{40}$",
         "url_block": "https://ftmscan.com/block/",
         "url_address": "https://ftmscan.com/address/",
@@ -1637,7 +1650,7 @@
     {
         "network": "eth",
         "ticker": "ftm",
-        "title": "Fantom (FTM)",
+        "title": "Fantom",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x4E15361FD6b4BB609Fa63C81A2be19d873717870",
@@ -1673,7 +1686,7 @@
     {
         "network": "bsc",
         "ticker": "fxs",
-        "title": "Frax Share (FXS)",
+        "title": "Frax Share",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xDE2F075f6F14EB9D96755b24E416A53E736Ca363",
@@ -1683,7 +1696,7 @@
     {
         "network": "eth",
         "ticker": "fxs",
-        "title": "Frax Share (FXS)",
+        "title": "Frax Share",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
@@ -1702,7 +1715,7 @@
     {
         "network": "bsc",
         "ticker": "gala",
-        "title": "Gala Games (GALA)",
+        "title": "Gala Games",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x7dDEE176F665cD201F93eEDE625770E2fD911990",
@@ -1712,7 +1725,7 @@
     {
         "network": "eth",
         "ticker": "gala",
-        "title": "Gala Games (GALA)",
+        "title": "Gala Games",
         "decimals": 8,
         "decimals_display": 5,
         "contract": "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA",
@@ -1735,7 +1748,7 @@
     {
         "network": "eth",
         "ticker": "ghst",
-        "title": "Aavegotchi (GHST)",
+        "title": "Aavegotchi",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x3F382DbD960E3a9bbCeaE22651E88158d2791550",
@@ -1754,7 +1767,7 @@
     {
         "network": "glmr",
         "ticker": "glmr",
-        "title": "Moonbeam (GLMR)",
+        "title": "Moonbeam",
         "regex_address": "^(0x)[0-9A-Fa-f]{40}$",
         "url_block": "https://moonscan.io/block/",
         "url_address": "https://moonscan.io/address/",
@@ -1767,7 +1780,7 @@
     {
         "network": "eth",
         "ticker": "gmt",
-        "title": "STEPN (GMT)",
+        "title": "STEPN",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x7Ddc52c4De30e94Be3A6A0A2b259b2850f421989",
@@ -1777,7 +1790,7 @@
     {
         "network": "eth",
         "ticker": "gno",
-        "title": "Gnosis (GNO)",
+        "title": "Gnosis",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x6810e776880c02933d47db1b9fc05908e5386b96",
@@ -1808,7 +1821,7 @@
     {
         "network": "eth",
         "ticker": "grt",
-        "title": "The Graph (GRT)",
+        "title": "The Graph",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xc944e90c64b2c07662a292be6244bdf05cda44a7",
@@ -1818,7 +1831,7 @@
     {
         "network": "eth",
         "ticker": "gtc",
-        "title": "Gitcoin (GTC)",
+        "title": "Gitcoin",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f",
@@ -1880,7 +1893,7 @@
     {
         "network": "icp",
         "ticker": "icp",
-        "title": "Internet Computer Protocol (ICP)",
+        "title": "Internet Computer Protocol",
         "regex_address": "^[0-9a-zA-Z]{64}$",
         "url_block": "https://dashboard.internetcomputer.org/block/",
         "url_address": "https://dashboard.internetcomputer.org/account/",
@@ -1893,7 +1906,7 @@
     {
         "network": "icx",
         "ticker": "icx",
-        "title": "ICON (ICX)",
+        "title": "ICON",
         "regex_address": "^(hx)[A-Za-z0-9]{40}$",
         "url_block": "https://tracker.icon.foundation/block/",
         "url_address": "https://tracker.icon.foundation/address/",
@@ -1906,7 +1919,7 @@
     {
         "network": "eth",
         "ticker": "idex",
-        "title": "IDEX (IDEX)",
+        "title": "IDEX",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xB705268213D593B8FD88d3FDEFF93AFF5CbDcfAE",
@@ -1925,7 +1938,7 @@
     {
         "network": "eth",
         "ticker": "imx",
-        "title": "Immutable X (IMX)",
+        "title": "Immutable X",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xf57e7e7c23978c3caec3c3548e3d615c346e79ff",
@@ -1935,7 +1948,7 @@
     {
         "network": "bsc",
         "ticker": "inj",
-        "title": "Injective Protocol (INJ)",
+        "title": "Injective Protocol",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xa2B726B1145A4773F68593CF171187d8EBe4d495",
@@ -1945,7 +1958,7 @@
     {
         "network": "inj",
         "ticker": "inj",
-        "title": "Injective Protocol (INJ)",
+        "title": "Injective Protocol",
         "regex_address": "^(inj1)[0-9a-z]{38}$",
         "regex_extra_id": "^[0-9A-Za-z\\-_]{1,120}$",
         "extra_id_title": "MEMO",
@@ -1960,7 +1973,7 @@
     {
         "network": "eth",
         "ticker": "jasmy",
-        "title": "JasmyCoin (JASMY)",
+        "title": "JasmyCoin",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x7420B4b9a0110cdC71fB720908340C03F9Bc03EC",
@@ -1985,7 +1998,7 @@
     {
         "network": "eth",
         "ticker": "keep",
-        "title": "Keep Network (KEEP)",
+        "title": "Keep Network",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x85eee30c52b0b379b046fb0f85f4f3dc3009afec",
@@ -1995,7 +2008,7 @@
     {
         "network": "eth",
         "ticker": "key",
-        "title": "SelfKey (KEY)",
+        "title": "SelfKey",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x4cc19356f2d37338b9802aa8e8fc58b0373296e7",
@@ -2013,7 +2026,7 @@
     {
         "network": "eth",
         "ticker": "knc",
-        "title": "Kyber Network (KNC)",
+        "title": "Kyber Network",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202",
@@ -2023,7 +2036,7 @@
     {
         "network": "eth",
         "ticker": "kp3r",
-        "title": "Keep3r (KP3R)",
+        "title": "Keep3r",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44",
@@ -2033,7 +2046,7 @@
     {
         "network": "ksm",
         "ticker": "ksm",
-        "title": "Kusama (KSM)",
+        "title": "Kusama",
         "regex_address": "^[0-9a-z-A-Z]{44,50}$",
         "url_block": "https://kusama.subscan.io/block/",
         "url_address": "https://kusama.subscan.io/account/",
@@ -2064,7 +2077,7 @@
     {
         "network": "eth",
         "ticker": "ldo",
-        "title": "LIDO DAO (LDO)",
+        "title": "LIDO DAO",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
@@ -2108,7 +2121,7 @@
     {
         "network": "bsc",
         "ticker": "link",
-        "title": "Chainlink (LINK)",
+        "title": "Chainlink",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xF8A0BF9cF54Bb92F17374d9e9A321E6a111a51bD",
@@ -2118,7 +2131,7 @@
     {
         "network": "eth",
         "ticker": "link",
-        "title": "Chainlink (LINK)",
+        "title": "Chainlink",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x514910771af9ca656af840dff83e8264ecf986ca",
@@ -2172,7 +2185,7 @@
     {
         "network": "eth",
         "ticker": "lpt",
-        "title": "LivePeer (LPT)",
+        "title": "LivePeer",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x58b6a8a3302369daec383334672404ee733ab239",
@@ -2182,7 +2195,7 @@
     {
         "network": "eth",
         "ticker": "lrc",
-        "title": "Loopring (LRC)",
+        "title": "Loopring",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd",
@@ -2192,7 +2205,7 @@
     {
         "network": "lsk",
         "ticker": "lsk",
-        "title": "Lisk (LSK)",
+        "title": "Lisk",
         "regex_address": "^(lsk)[0-9A-Za-z]{38}$",
         "url_block": "https://liskscan.com/block/",
         "url_address": "https://liskscan.com/account/",
@@ -2205,7 +2218,7 @@
     {
         "network": "bsc",
         "ticker": "ltc",
-        "title": "Litecoin (LTC)",
+        "title": "Litecoin",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x4338665CBB7B2485A8855A139b75D5e34AB0DB94",
@@ -2245,7 +2258,7 @@
     {
         "network": "luna",
         "ticker": "luna",
-        "title": "Terra Classic (LUNA)",
+        "title": "Terra Classic",
         "regex_address": "^(terra1)[0-9a-z]{38}$",
         "regex_extra_id": "^[0-9A-Za-z\\-_]{1,120}$",
         "extra_id_title": "MEMO",
@@ -2260,7 +2273,7 @@
     {
         "network": "bsc",
         "ticker": "mana",
-        "title": "Decentra​land (MANA)",
+        "title": "Decentra​land",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x26433c8127d9b4e9B71Eaa15111DF99Ea2EeB2f8",
@@ -2270,7 +2283,7 @@
     {
         "network": "eth",
         "ticker": "mana",
-        "title": "Decentra​land (MANA)",
+        "title": "Decentra​land",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942",
@@ -2280,7 +2293,7 @@
     {
         "network": "eth",
         "ticker": "mask",
-        "title": "Mask Network (MASK)",
+        "title": "Mask Network",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x69af81e73a73b40adf4f3d4223cd9b1ece623074",
@@ -2290,7 +2303,7 @@
     {
         "network": "bsc",
         "ticker": "matic",
-        "title": "Polygon (MATIC)",
+        "title": "Polygon",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xCC42724C6683B7E57334c4E856f4c9965ED682bD",
@@ -2300,7 +2313,7 @@
     {
         "network": "matic",
         "ticker": "matic",
-        "title": "Polygon (MATIC)",
+        "title": "Polygon",
         "regex_address": "^(0x)[0-9A-Fa-f]{40}$",
         "url_block": "https://polygonscan.com/block/",
         "url_address": "https://polygonscan.com/address/",
@@ -2313,7 +2326,7 @@
     {
         "network": "eth",
         "ticker": "matic",
-        "title": "Polygon (MATIC)",
+        "title": "Polygon",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0",
@@ -2332,7 +2345,7 @@
     {
         "network": "eth",
         "ticker": "mc",
-        "title": "Merit Circle (MC)",
+        "title": "Merit Circle",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x949D48EcA67b17269629c7194F4b727d4Ef9E5d6",
@@ -2377,7 +2390,7 @@
     {
         "network": "mina",
         "ticker": "mina",
-        "title": "Mina (MINA)",
+        "title": "Mina",
         "regex_address": "^(B62)[A-Za-z0-9]{52}$",
         "url_block": "https://minaexplorer.com/block/",
         "url_address": "https://minaexplorer.com/wallet/",
@@ -2390,7 +2403,7 @@
     {
         "network": "eth",
         "ticker": "mir",
-        "title": "Mirror Protocol (MIR)",
+        "title": "Mirror Protocol",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x09a3EcAFa817268f77BE1283176B946C4ff2E608",
@@ -2409,7 +2422,7 @@
     {
         "network": "bsc",
         "ticker": "mkr",
-        "title": "MakerDAO (MKR)",
+        "title": "MakerDAO",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x5f0Da599BB2ccCfcf6Fdfd7D81743B6020864350",
@@ -2419,7 +2432,7 @@
     {
         "network": "eth",
         "ticker": "mkr",
-        "title": "MakerDAO (MKR)",
+        "title": "MakerDAO",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2",
@@ -2429,7 +2442,7 @@
     {
         "network": "eth",
         "ticker": "mln",
-        "title": "Enzyme Finance (MLN)",
+        "title": "Enzyme Finance",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892",
@@ -2456,7 +2469,7 @@
     {
         "network": "movr",
         "ticker": "movr",
-        "title": "Moonriver (MOVR)",
+        "title": "Moonriver",
         "regex_address": "^(0x)[0-9A-Fa-f]{40}$",
         "url_block": "https://moonriver.subscan.io/block/",
         "url_address": "https://blockscout.moonriver.moonbeam.network/address/",
@@ -2517,7 +2530,7 @@
     {
         "network": "bsc",
         "ticker": "near",
-        "title": "NEAR Protocol (NEAR)",
+        "title": "NEAR Protocol",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x1Fa4a73a3F0133f0025378af00236f3aBDEE5D63",
@@ -2558,7 +2571,7 @@
     {
         "network": "eth",
         "ticker": "nmr",
-        "title": "Numeraire (NMR)",
+        "title": "Numeraire",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671",
@@ -2586,7 +2599,7 @@
     {
         "network": "eth",
         "ticker": "ocean",
-        "title": "OCEAN Token (OCEAN)",
+        "title": "OCEAN Token",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x967da4048cd07ab37855c090aaf366e4ce1b9f48",
@@ -2596,7 +2609,7 @@
     {
         "network": "eth",
         "ticker": "ogn",
-        "title": "Origin Protocol (OGN)",
+        "title": "Origin Protocol",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x8207c1ffc5b6804f6024322ccf34f29c3541ae26",
@@ -2623,7 +2636,7 @@
     {
         "network": "eth",
         "ticker": "omg",
-        "title": "OMG Network (OMG)",
+        "title": "OMG Network",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
@@ -2677,7 +2690,7 @@
     {
         "network": "eth",
         "ticker": "oxt",
-        "title": "Orchid (OXT)",
+        "title": "Orchid",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x4575f41308EC1483f3d399aa9a2826d74Da13Deb",
@@ -2687,7 +2700,7 @@
     {
         "network": "eth",
         "ticker": "paxg",
-        "title": "PAX Gold (PAXG)",
+        "title": "PAX Gold",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x45804880de22913dafe09f4980848ece6ecbaf78",
@@ -2715,7 +2728,7 @@
     {
         "network": "eth",
         "ticker": "perp",
-        "title": "Perpetual Protocol (PERP)",
+        "title": "Perpetual Protocol",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xbc396689893d065f41bc2c6ecbee5e0085233447",
@@ -2725,7 +2738,7 @@
     {
         "network": "bsc",
         "ticker": "pha",
-        "title": "Phala (PHA)",
+        "title": "Phala",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x0112e557d400474717056C4e6D40eDD846F38351",
@@ -2735,7 +2748,7 @@
     {
         "network": "eth",
         "ticker": "pha",
-        "title": "Phala (PHA)",
+        "title": "Phala",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x6c5bA91642F10282b576d91922Ae6448C9d52f4E",
@@ -2754,7 +2767,7 @@
     {
         "network": "eth",
         "ticker": "pla",
-        "title": "PlayDapp (PLA)",
+        "title": "PlayDapp",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x307d45Afbb7E84F82ef3D251A6bb0F00Edf632E4",
@@ -2817,7 +2830,7 @@
     {
         "network": "eth",
         "ticker": "powr",
-        "title": "Powerledger (POWR)",
+        "title": "Powerledger",
         "decimals": 6,
         "decimals_display": 5,
         "contract": "0x595832f8fc6bf59c85c527fec3740a1b7a361269",
@@ -2885,7 +2898,7 @@
     {
         "network": "eth",
         "ticker": "qnt",
-        "title": "Quant (QNT)",
+        "title": "Quant",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x4a220e6096b25eadb88358cb44068a3248254675",
@@ -2904,7 +2917,7 @@
     {
         "network": "qtum",
         "ticker": "qtum",
-        "title": "Qtum (QTUM)",
+        "title": "Qtum",
         "regex_address": "^[Q|M][A-Za-z0-9]{33}$",
         "url_block": "https://qtum.info/block/",
         "url_address": "https://qtum.info/address/",
@@ -2939,7 +2952,7 @@
     {
         "network": "eth",
         "ticker": "rad",
-        "title": "Radicle (RAD)",
+        "title": "Radicle",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x31c8eacbffdd875c74b94b077895bd78cf1e64a3",
@@ -2949,7 +2962,7 @@
     {
         "network": "eth",
         "ticker": "rare",
-        "title": "SuperRare (RARE)",
+        "title": "SuperRare",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xba5BDe662c17e2aDFF1075610382B9B691296350",
@@ -2959,7 +2972,7 @@
     {
         "network": "sol",
         "ticker": "ray",
-        "title": "Raydium (RAY)",
+        "title": "Raydium",
         "regex_address": "^[1-9A-HJ-NP-Za-km-z]{32,44}$",
         "url_block": "https://explorer.solana.com/block/",
         "url_address": "https://explorer.solana.com/address/",
@@ -3000,7 +3013,7 @@
     {
         "network": "eth",
         "ticker": "ren",
-        "title": "Ren (REN)",
+        "title": "Ren",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x408e41876cccdc0f92210600ef50372656052a38",
@@ -3019,7 +3032,7 @@
     {
         "network": "eth",
         "ticker": "rep",
-        "title": "Augur (REP)",
+        "title": "Augur",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x221657776846890989a759BA2973e427DfF5C9bB",
@@ -3029,7 +3042,7 @@
     {
         "network": "eth",
         "ticker": "req",
-        "title": "Request (REQ)",
+        "title": "Request",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x8f8221afbb33998d8584a2b05749ba73c37a938a",
@@ -3048,7 +3061,7 @@
     {
         "network": "eth",
         "ticker": "rlc",
-        "title": "iExec RLC (RLC)",
+        "title": "iExec RLC",
         "decimals": 9,
         "decimals_display": 5,
         "contract": "0x607F4C5BB672230e8672085532f7e901544a7375",
@@ -3058,7 +3071,7 @@
     {
         "network": "eth",
         "ticker": "rndr",
-        "title": "Render (RNDR)",
+        "title": "Render",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x6de037ef9ad2725eb40118bb1702ebb27e4aeb24",
@@ -3077,7 +3090,7 @@
     {
         "network": "rune",
         "ticker": "rune",
-        "title": "THORChain (RUNE)",
+        "title": "THORChain",
         "regex_address": "^(thor1)[0-9a-z]{38}$",
         "regex_extra_id": "^[0-9A-Za-z\\-_]{1,120}$",
         "extra_id_title": "MEMO",
@@ -3101,7 +3114,7 @@
     {
         "network": "eth",
         "ticker": "sand",
-        "title": "Sand (SAND)",
+        "title": "Sand",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x3845badAde8e6dFF049820680d1F14bD3903a5d0",
@@ -3120,7 +3133,7 @@
     {
         "network": "sc",
         "ticker": "sc",
-        "title": "Siacoin (SC)",
+        "title": "Siacoin",
         "regex_address": "^[A-Za-z0-9]{76}$",
         "url_block": "https://explore.sia.tech/block/",
         "url_address": "https://explore.sia.tech/address/",
@@ -3133,7 +3146,7 @@
     {
         "network": "scrt",
         "ticker": "scrt",
-        "title": "Secret Network (SCRT)",
+        "title": "Secret Network",
         "regex_address": "^(secret1)[0-9a-z]{38}$",
         "extra_id_title": "MEMO",
         "url_block": "https://secretnodes.com/secret/chains/secret-4/blocks/",
@@ -3156,7 +3169,7 @@
     {
         "network": "sgb",
         "ticker": "sgb",
-        "title": "Songbird (SGB)",
+        "title": "Songbird",
         "regex_address": "^(0x)[0-9A-Fa-f]{40}$",
         "url_block": "https://songbird-explorer.flare.network/block/",
         "url_address": "https://songbird-explorer.flare.network/address/",
@@ -3177,7 +3190,7 @@
     {
         "network": "eth",
         "ticker": "shib",
-        "title": "Shiba Inu (SHIB)",
+        "title": "Shiba Inu",
         "decimals": 18,
         "contract": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
         "color": "#fda32b",
@@ -3231,7 +3244,7 @@
     {
         "network": "bsc",
         "ticker": "snx",
-        "title": "Synthetix (SNX)",
+        "title": "Synthetix",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x9Ac983826058b8a9C7Aa1C9171441191232E8404",
@@ -3241,7 +3254,7 @@
     {
         "network": "eth",
         "ticker": "snx",
-        "title": "Synthetix (SNX)",
+        "title": "Synthetix",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
@@ -3251,7 +3264,7 @@
     {
         "network": "bsc",
         "ticker": "sol",
-        "title": "Solana (SOL)",
+        "title": "Solana",
         "decimals": 9,
         "decimals_display": 5,
         "contract": "0xfA54fF1a158B5189Ebba6ae130CEd6bbd3aEA76e",
@@ -3274,7 +3287,7 @@
     {
         "network": "eth",
         "ticker": "spell",
-        "title": "Spell Token (SPELL)",
+        "title": "Spell Token",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x090185f2135308bad17527004364ebcc2d37e5f6",
@@ -3284,7 +3297,7 @@
     {
         "network": "eth",
         "ticker": "srm",
-        "title": "Serum (SRM)",
+        "title": "Serum",
         "decimals": 6,
         "decimals_display": 5,
         "contract": "0x476c5e26a75bd202a9683ffd34359c0cc15be0ff",
@@ -3311,7 +3324,7 @@
     {
         "network": "eth",
         "ticker": "storj",
-        "title": "Storj (STORJ)",
+        "title": "Storj",
         "decimals": 8,
         "decimals_display": 5,
         "contract": "0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac",
@@ -3352,7 +3365,7 @@
     {
         "network": "bsc",
         "ticker": "super",
-        "title": "SuperFarm (SUPER)",
+        "title": "SuperFarm",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x51BA0b044d96C3aBfcA52B64D733603CCC4F0d4D",
@@ -3362,7 +3375,7 @@
     {
         "network": "eth",
         "ticker": "super",
-        "title": "SuperFarm (SUPER)",
+        "title": "SuperFarm",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xe53EC727dbDEB9E2d5456c3be40cFF031AB40A55",
@@ -3381,7 +3394,7 @@
     {
         "network": "eth",
         "ticker": "sushi",
-        "title": "Sushi (SUSHI)",
+        "title": "Sushi",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
@@ -3400,7 +3413,7 @@
     {
         "network": "bsc",
         "ticker": "sxp",
-        "title": "Swipe (SXP)",
+        "title": "Swipe",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x47BEAd2563dCBf3bF2c9407fEa4dC236fAbA485A",
@@ -3410,7 +3423,7 @@
     {
         "network": "eth",
         "ticker": "sxp",
-        "title": "Swipe (SXP)",
+        "title": "Swipe",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9",
@@ -3420,7 +3433,7 @@
     {
         "network": "eth",
         "ticker": "t",
-        "title": "Threshold (T)",
+        "title": "Threshold",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xCdF7028ceAB81fA0C6971208e83fa7872994beE5",
@@ -3460,7 +3473,7 @@
     {
         "network": "bsc",
         "ticker": "tlm",
-        "title": "Alien Worlds (TLM)",
+        "title": "Alien Worlds",
         "decimals": 4,
         "decimals_display": 5,
         "contract": "0x2222227E22102Fe3322098e4CBfE18cFebD57c95",
@@ -3470,7 +3483,7 @@
     {
         "network": "eth",
         "ticker": "tlm",
-        "title": "Alien Worlds (TLM)",
+        "title": "Alien Worlds",
         "decimals": 4,
         "decimals_display": 5,
         "contract": "0x888888848B652B3E3a0f34c96E00EEC0F3a23F72",
@@ -3516,7 +3529,7 @@
     {
         "network": "eth",
         "ticker": "tribe",
-        "title": "Tribe (TRIBE)",
+        "title": "Tribe",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xc7283b66Eb1EB5FB86327f08e1B5816b0720212B",
@@ -3534,7 +3547,7 @@
     {
         "network": "bsc",
         "ticker": "trx",
-        "title": "TRON (TRX)",
+        "title": "TRON",
         "decimals": 18,
         "decimals_display": 6,
         "contract": "0x85EAC5Ac2F758618dFa09bDbe0cf174e7d574D5B",
@@ -3575,7 +3588,7 @@
     {
         "network": "eth",
         "ticker": "tvk",
-        "title": "Terra Virtua Kolect (TVK)",
+        "title": "Terra Virtua Kolect",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xd084b83c305dafd76ae3e1b4e1f1fe2ecccb3988",
@@ -3594,7 +3607,7 @@
     {
         "network": "eth",
         "ticker": "uma",
-        "title": "Universal Market Access (UMA)",
+        "title": "Universal Market Access",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828",
@@ -3604,7 +3617,7 @@
     {
         "network": "eth",
         "ticker": "unfi",
-        "title": "Unifi Protocol DAO (UNFI)",
+        "title": "Unifi Protocol DAO",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x441761326490cACF7aF299725B6292597EE822c2",
@@ -3614,7 +3627,7 @@
     {
         "network": "bsc",
         "ticker": "uni",
-        "title": "Uniswap (UNI)",
+        "title": "Uniswap",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xBf5140A22578168FD562DCcF235E5D43A02ce9B1",
@@ -3624,7 +3637,7 @@
     {
         "network": "eth",
         "ticker": "uni",
-        "title": "Uniswap (UNI)",
+        "title": "Uniswap",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
@@ -3634,7 +3647,7 @@
     {
         "network": "bsc",
         "ticker": "usdc",
-        "title": "USD Coin (USDC)",
+        "title": "USD Coin",
         "decimals": 18,
         "decimals_display": 4,
         "contract": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
@@ -3644,7 +3657,7 @@
     {
         "network": "eth",
         "ticker": "usdc",
-        "title": "USD Coin (USDC)",
+        "title": "USD Coin",
         "decimals": 6,
         "decimals_display": 4,
         "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
@@ -3654,7 +3667,7 @@
     {
         "network": "matic",
         "ticker": "usdc",
-        "title": "USD Coin (USDC)",
+        "title": "USD Coin",
         "regex_address": "^(0x)[0-9A-Fa-f]{40}$",
         "url_block": "https://polygonscan.com/block/",
         "url_address": "https://polygonscan.com/address/",
@@ -3686,7 +3699,7 @@
     {
         "network": "bsc",
         "ticker": "usdt",
-        "title": "Tether USD (USDT)",
+        "title": "Tether USD",
         "decimals": 18,
         "decimals_display": 4,
         "contract": "0x55d398326f99059fF775485246999027B3197955",
@@ -3696,7 +3709,7 @@
     {
         "network": "eth",
         "ticker": "usdt",
-        "title": "Tether USD (USDT)",
+        "title": "Tether USD",
         "decimals": 6,
         "decimals_display": 4,
         "contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
@@ -3706,7 +3719,7 @@
     {
         "network": "matic",
         "ticker": "usdt",
-        "title": "Tether USD (USDT)",
+        "title": "Tether USD",
         "regex_address": "^(0x)[0-9A-Fa-f]{40}$",
         "url_block": "https://polygonscan.com/block/",
         "url_address": "https://polygonscan.com/address/",
@@ -3816,7 +3829,7 @@
     {
         "network": "waves",
         "ticker": "waves",
-        "title": "Waves (WAVES)",
+        "title": "Waves",
         "regex_address": "^(3P)[0-9A-Za-z]{33}$",
         "url_block": "https://wavesexplorer.com/",
         "url_address": "https://wavesexplorer.com/address/",
@@ -3829,7 +3842,7 @@
     {
         "network": "eth",
         "ticker": "wbtc",
-        "title": "Wrapped Bitcoin (WBTC)",
+        "title": "Wrapped Bitcoin",
         "decimals": 8,
         "decimals_display": 5,
         "contract": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
@@ -3839,7 +3852,7 @@
     {
         "network": "eth",
         "ticker": "weth",
-        "title": "Wrapped Ether (WETH)",
+        "title": "Wrapped Ether",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
@@ -3888,7 +3901,7 @@
     {
         "network": "bsc",
         "ticker": "woo",
-        "title": "Woo Network (WOO)",
+        "title": "Woo Network",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
@@ -3898,7 +3911,7 @@
     {
         "network": "eth",
         "ticker": "woo",
-        "title": "Woo Network (WOO)",
+        "title": "Woo Network",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
@@ -3960,7 +3973,7 @@
     {
         "network": "bsc",
         "ticker": "xrp",
-        "title": "Ripple (XRP)",
+        "title": "Ripple",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
@@ -3985,7 +3998,7 @@
     {
         "network": "bsc",
         "ticker": "xtz",
-        "title": "Tezos (XTZ)",
+        "title": "Tezos",
         "decimals": 18,
         "decimals_display": 6,
         "contract": "0x16939ef78684453bfDFb47825F8a5F714f12623a",
@@ -4017,7 +4030,7 @@
     {
         "network": "bsc",
         "ticker": "yfi",
-        "title": "Yearn Finance (YFI)",
+        "title": "Yearn Finance",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x88f1A5ae2A3BF98AEAF342D26B30a79438c9142e",
@@ -4027,7 +4040,7 @@
     {
         "network": "eth",
         "ticker": "yfi",
-        "title": "Yearn Finance (YFI)",
+        "title": "Yearn Finance",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e",
@@ -4055,7 +4068,7 @@
     {
         "network": "bsc",
         "ticker": "ygg",
-        "title": "Yield Guild Games (YGG)",
+        "title": "Yield Guild Games",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x13Ab6739368a4e4abf24695bf52959224367391f",
@@ -4065,7 +4078,7 @@
     {
         "network": "eth",
         "ticker": "ygg",
-        "title": "Yield Guild Games (YGG)",
+        "title": "Yield Guild Games",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x25f8087ead173b73d6e8b84329989a8eea16cf73",
@@ -4075,7 +4088,7 @@
     {
         "network": "bsc",
         "ticker": "zec",
-        "title": "Zcash (ZEC)",
+        "title": "Zcash",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0x1Ba42e5193dfA8B03D15dd1B86a3113bbBEF8Eeb",
@@ -4119,7 +4132,7 @@
     {
         "network": "eth",
         "ticker": "zrx",
-        "title": "0x (ZRX)",
+        "title": "0x",
         "decimals": 18,
         "decimals_display": 5,
         "contract": "0xe41d2489571d322189246dafa5ebde1f4699f498",
@@ -6910,7 +6923,7 @@
     {
         "network": "eth",
         "ticker": "dough",
-        "title": "PieDAO v2 (DOUGH)",
+        "title": "PieDAO v2",
         "decimals": 18,
         "contract": "0xad32A8e6220741182940c5aBF610bDE99E737b2D",
         "color": "#000000",
@@ -7387,7 +7400,7 @@
     {
         "network": "eth",
         "ticker": "dfsocial",
-        "title": "DefiSocial (OLD)",
+        "title": "DefiSocial",
         "decimals": 18,
         "contract": "0x54ee01beB60E745329E6a8711Ad2D6cb213e38d7",
         "color": "#000000",
@@ -12796,7 +12809,7 @@
     {
         "network": "bsc",
         "ticker": "efft",
-        "title": "Effort Economy ",
+        "title": "Effort Economy",
         "decimals": 18,
         "contract": "0x144e72b405530ad82a5e6833ef1bb73d0bd2a216",
         "color": "#000000",
@@ -12814,7 +12827,7 @@
     {
         "network": "eth",
         "ticker": "wpe",
-        "title": "OPES (Wrapped PE)",
+        "title": "OPES",
         "decimals": 18,
         "contract": "0xd075e95423c5c4ba1e122cae0f4cdfa19b82881b",
         "color": "#000000",
@@ -12913,7 +12926,7 @@
     {
         "network": "eth",
         "ticker": "minute",
-        "title": "MINUTE Vault (NFTX)",
+        "title": "MINUTE Vault",
         "decimals": 18,
         "contract": "0xcda16f62a8d3127ea0aebfacb221c1cc41b8e488",
         "color": "#000000",
@@ -16351,7 +16364,7 @@
     {
         "network": "bsc",
         "ticker": "mwar",
-        "title": "MemeWars (MWAR)",
+        "title": "MemeWars",
         "decimals": 18,
         "contract": "0x9f28455a82BAA6B4923A5e2d7624aAf574182585",
         "color": "#000000",
@@ -16657,7 +16670,7 @@
     {
         "network": "bsc",
         "ticker": "bacon",
-        "title": "BaconDAO (BACON)",
+        "title": "BaconDAO",
         "decimals": 18,
         "contract": "0x0615Dbba33Fe61a31c7eD131BDA6655Ed76748B1",
         "color": "#000000",
@@ -17242,7 +17255,7 @@
     {
         "network": "eth",
         "ticker": "mofold",
-        "title": "Molecular Future (ERC20)",
+        "title": "Molecular Future",
         "decimals": 16,
         "contract": "0x653430560be843c4a3d143d0110e896c2ab8ac0d",
         "color": "#000000",
@@ -17656,7 +17669,7 @@
     {
         "network": "eth",
         "ticker": "phonon",
-        "title": "Phonon DAO ",
+        "title": "Phonon DAO",
         "decimals": 18,
         "contract": "0x758b4684be769e92eefea93f60dda0181ea303ec",
         "color": "#000000",
@@ -17980,7 +17993,7 @@
     {
         "network": "eth",
         "ticker": "frr",
-        "title": "Frontrow ",
+        "title": "Frontrow",
         "decimals": 18,
         "contract": "0xe6602b34d8510b033e000975b3322537c7172441",
         "color": "#000000",
@@ -19546,7 +19559,7 @@
     {
         "network": "bsc",
         "ticker": "rec",
-        "title": "Rec Token (REC)",
+        "title": "Rec Token",
         "decimals": 8,
         "contract": "0xd9A517bbc9d5Dd18C43f74a713065F1AE4c765db",
         "color": "#000000",
@@ -19735,7 +19748,7 @@
     {
         "network": "bsc",
         "ticker": "hpl",
-        "title": "HappyLand (HPL)",
+        "title": "HappyLand",
         "decimals": 18,
         "contract": "0x0d0621ad4ec89da1cf0f371d6205229f04bcb378",
         "color": "#000000",
@@ -20608,7 +20621,7 @@
     {
         "network": "eth",
         "ticker": "bone",
-        "title": "Bone ShibaSwap (BONE)",
+        "title": "Bone ShibaSwap",
         "decimals": 18,
         "contract": "0x9813037ee2218799597d83D4a5B6F3b6778218d9",
         "color": "#000000",
@@ -20806,7 +20819,7 @@
     {
         "network": "eth",
         "ticker": "wzeniq",
-        "title": "Wrapped Zeniq (ETH)",
+        "title": "Wrapped Zeniq",
         "decimals": 18,
         "contract": "0x5b52bfB8062Ce664D74bbCd4Cd6DC7Df53Fd7233",
         "color": "#000000",
@@ -21436,7 +21449,7 @@
     {
         "network": "eth",
         "ticker": "bnsold",
-        "title": "BNS token ",
+        "title": "BNS token",
         "decimals": 8,
         "contract": "0x695106ad73f506f9d0a9650a78019a93149ae07c",
         "color": "#000000",
@@ -21454,7 +21467,7 @@
     {
         "network": "bsc",
         "ticker": "n3dr",
-        "title": "NeorderDAO ",
+        "title": "NeorderDAO",
         "decimals": 18,
         "contract": "0xa01c017b467eC041806702F7B44822Eb76183Eaa",
         "color": "#000000",
@@ -27593,7 +27606,7 @@
         "contract": "",
         "network": "btc",
         "ticker": "usdt",
-        "title": "Tether (OMNI)",
+        "title": "Tether",
         "url_block": "https://omniexplorer.info/block/",
         "url_address": "https://omniexplorer.info/address/",
         "url_tx": "https://omniexplorer.info/tx/",
@@ -27734,7 +27747,7 @@
         "id": 3037
     },
     {
-        "title": "Ethereum (Binance Smart Chain)",
+        "title": "Ethereum",
         "network": "bsc",
         "ticker": "eth",
         "decimals": 18,
@@ -27752,7 +27765,7 @@
         "id": 3039
     },
     {
-        "title": "BitTorrent (Binance Smart Chain)",
+        "title": "BitTorrent",
         "network": "bsc",
         "ticker": "btt",
         "decimals": 18,
@@ -27986,7 +27999,7 @@
         "id": 3065
     },
     {
-        "title": "Floki Inu (Binance Smart Chain)",
+        "title": "Floki Inu",
         "network": "bsc",
         "ticker": "floki",
         "decimals": 9,
@@ -27995,7 +28008,7 @@
         "id": 3066
     },
     {
-        "title": "FEG Token (Binance Smart Chain)",
+        "title": "FEG Token",
         "network": "bsc",
         "ticker": "feg",
         "decimals": 9,
@@ -28067,7 +28080,7 @@
         "id": 3074
     },
     {
-        "title": "Lonelyfans (NEW)",
+        "title": "Lonelyfans",
         "network": "bsc",
         "ticker": "lof",
         "decimals": 9,
@@ -28157,7 +28170,7 @@
         "id": 3084
     },
     {
-        "title": "Velas (Binance Smart Chain)",
+        "title": "Velas",
         "network": "bsc",
         "ticker": "vlx",
         "decimals": 18,
@@ -28166,7 +28179,7 @@
         "id": 3085
     },
     {
-        "title": "DeFiChain (Binance Smart Chain)",
+        "title": "DeFiChain",
         "network": "bsc",
         "ticker": "dfi",
         "decimals": 18,
@@ -28184,7 +28197,7 @@
         "id": 3087
     },
     {
-        "title": "BitTorrent-NEW (Binance Smart Chain)",
+        "title": "BitTorrent-NEW",
         "network": "bsc",
         "ticker": "bttc",
         "decimals": 18,
@@ -28193,7 +28206,7 @@
         "id": 3088
     },
     {
-        "title": "Avalanche (Binance Smart Chain)",
+        "title": "Avalanche",
         "network": "bsc",
         "ticker": "avax",
         "decimals": 18,
@@ -28211,7 +28224,7 @@
         "id": 3090
     },
     {
-        "title": "VeChain (Binance Smart Chain)",
+        "title": "VeChain",
         "network": "bsc",
         "ticker": "vet",
         "decimals": 18,
@@ -28220,7 +28233,7 @@
         "id": 3091
     },
     {
-        "title": "Elrond (Binance Smart Chain)",
+        "title": "Elrond",
         "network": "bsc",
         "ticker": "egld",
         "decimals": 18,
@@ -28292,7 +28305,7 @@
         "id": 3099
     },
     {
-        "title": "Travala.com (ERC20)",
+        "title": "Travala.com",
         "network": "eth",
         "ticker": "ava",
         "decimals": 18,
@@ -28400,7 +28413,7 @@
         "id": 3111
     },
     {
-        "title": "Floki Inu (ERC20)",
+        "title": "Floki Inu",
         "network": "eth",
         "ticker": "floki",
         "decimals": 9,
@@ -28508,7 +28521,7 @@
         "id": 3123
     },
     {
-        "title": "Guarded Ether (ERC20)",
+        "title": "Guarded Ether",
         "network": "eth",
         "ticker": "geth",
         "decimals": 18,
@@ -28546,7 +28559,7 @@
     {
         "network": "trx",
         "ticker": "usdt",
-        "title": "Tether (USDT)",
+        "title": "Tether",
         "decimals": 6,
         "contract": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
         "color": "#000000",
@@ -30373,7 +30386,7 @@
     {
         "network": "trx",
         "ticker": "cnf",
-        "title": "CryptoNeur Network foundation ",
+        "title": "CryptoNeur Network foundation",
         "decimals": 18,
         "contract": "TKRYQndqTdnU4Bg17gY39rooyK6CzM3ush",
         "color": "#000000",
@@ -31165,7 +31178,7 @@
     {
         "network": "trx",
         "ticker": "gcx.cc ",
-        "title": "GCX.CC ",
+        "title": "GCX.CC",
         "decimals": 6,
         "contract": "TXD17YmEp1nRNUyxpB8aQ5ruxKAJRp68oL",
         "color": "#000000",
@@ -31588,7 +31601,7 @@
     {
         "network": "trx",
         "ticker": "nrgs",
-        "title": "NRGS ",
+        "title": "NRGS",
         "decimals": 18,
         "contract": "TSNhVZtkc3MProH3BTy6wLNLV97XYciAaa",
         "color": "#000000",
@@ -32551,7 +32564,7 @@
     {
         "network": "trx",
         "ticker": "lax",
-        "title": "Left_Auxiliary ",
+        "title": "Left_Auxiliary",
         "decimals": 6,
         "contract": "TGPocuhAYA4BXYULST2bkeSD5SJHtejPBc",
         "color": "#000000",
@@ -32785,7 +32798,7 @@
     {
         "network": "trx",
         "ticker": "vgcp",
-        "title": "Venus Global Chain Pro ",
+        "title": "Venus Global Chain Pro",
         "decimals": 6,
         "contract": "TTgNnc26QYaZyRKdj6iNmhZr89BJEsvTWC",
         "color": "#000000",
@@ -32844,15 +32857,6 @@
         "contract": "1004011",
         "color": "#000000",
         "id": 3609
-    },
-    {
-        "network": "trx",
-        "ticker": "????",
-        "title": "Tathtr ???",
-        "decimals": 6,
-        "contract": "TM4MwWYB82vYNnjfYVjaZSYoQx9u97n6Y8",
-        "color": "#000000",
-        "id": 3610
     },
     {
         "network": "trx",
