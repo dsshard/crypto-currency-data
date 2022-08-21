@@ -607,7 +607,7 @@
     {
         "network": "bnb",
         "ticker": "bnb",
-        "title": "Binance Smart Chain",
+        "title": "Binance Coin",
         "regex_address": "^(bnb1)[0-9a-z]{38}$",
         "regex_extra_id": "^[0-9A-Za-z\\-_]{1,120}$",
         "extra_id_title": "MEMO",
@@ -1439,19 +1439,6 @@
         "url_block": "https://etherscan.io/block/",
         "url_address": "https://etherscan.io/address/",
         "url_tx": "https://etherscan.io/tx/",
-        "decimals": 18,
-        "decimals_display": 5,
-        "color": "#3C3C3D",
-        "id": 147
-    },
-    {
-        "network": "bsc",
-        "ticker": "bsc",
-        "title": "Binance Smart Chain",
-        "regex_address": "^(0x)[0-9A-Fa-f]{40}$",
-        "url_block": "https://bscscan.io/block/",
-        "url_address": "https://bscscan.io/address/",
-        "url_tx": "https://bscscan.io/tx/",
         "decimals": 18,
         "decimals_display": 5,
         "color": "#3C3C3D",
@@ -33019,5 +33006,18 @@
         "contract": "TM35sdAzzueBWLL3a8XDin3cZRhYuv3YaN",
         "color": "#000000",
         "id": 3628
+    },
+    {
+        "network": "bsc",
+        "ticker": "bsc",
+        "title": "Binance Smart Chain",
+        "regex_address": "^(0x)[0-9A-Fa-f]{40}$",
+        "url_block": "https://bscscan.io/block/",
+        "url_address": "https://bscscan.io/address/",
+        "url_tx": "https://bscscan.io/tx/",
+        "decimals": 18,
+        "decimals_display": 5,
+        "color": "#3C3C3D",
+        "id": 3629
     }
 ]

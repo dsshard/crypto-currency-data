@@ -23,7 +23,10 @@ function findCryptoCurrencyData({ ticker, network, contract }) {
     if (!ticker)
         return null;
     key = `${ticker}${network}`;
-    return (0, lib_1.prepareInformation)(byNetworks[key]);
+    if (byNetworks[key]) {
+        return (0, lib_1.prepareInformation)(byNetworks[key]);
+    }
+    return null;
 }
 exports.findCryptoCurrencyData = findCryptoCurrencyData;
 function getCryptoCurrencyDataById(id) {
