@@ -46,7 +46,10 @@ export function findCryptoCurrencyData ({ ticker, network, contract }: Params): 
   }
   if (!ticker) return null
   key = `${ticker}${network}`
-  return prepareInformation(byNetworks[key])
+  if (byNetworks[key]) {
+    return prepareInformation(byNetworks[key])
+  }
+  return null
 }
 
 export function getCryptoCurrencyDataById (id: number): Coin {

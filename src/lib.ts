@@ -1,6 +1,7 @@
 export function prepareInformation (item) {
+  const isToken = item.network !== item.ticker
   if (!item) return null
-  if (item.network === 'eth' && item.is_token) {
+  if (item.network === 'eth' && isToken) {
     Object.assign(item, {
       regex_address: '^(0x)[0-9A-Fa-f]{40}$',
       url_block: 'https://etherscan.io/block/',
@@ -9,7 +10,7 @@ export function prepareInformation (item) {
     })
   }
 
-  if (item.network === 'bsc' && item.is_token) {
+  if (item.network === 'bsc' && isToken) {
     Object.assign(item, {
       regex_address: '^(0x)[0-9A-Fa-f]{40}$',
       url_block: 'https://bscscan.com/block/',
@@ -18,7 +19,7 @@ export function prepareInformation (item) {
     })
   }
 
-  if (item.network === 'trx' && item.is_token) {
+  if (item.network === 'trx' && isToken) {
     Object.assign(item, {
       regex_address: '^T[1-9A-HJ-NP-Za-km-z]{33}$',
       url_block: 'https://tronscan.org/#/block/',
@@ -27,7 +28,7 @@ export function prepareInformation (item) {
     })
   }
 
-  if (item.network === 'bnb' && item.is_token) {
+  if (item.network === 'bnb' && isToken) {
     Object.assign(item, {
       regex_address: '^(bnb1)[0-9a-z]{38}$',
       regex_extra_id: '^[0-9A-Za-z\\-_]{1,120}$',
