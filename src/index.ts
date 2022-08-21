@@ -53,6 +53,10 @@ export function getCryptoCurrencyDataById (id: number): Coin {
   return byIds[id] || null
 }
 
+export function getAllByTicker (ticker: string): Coin[] {
+  return (data as Coin[]).filter((item) => item.ticker === ticker)
+}
+
 export function validateCryptoAddress (address: string, params: Params | Coin): boolean | null {
   if (!params) return null
   if (typeof (params as Coin)?.regex_address !== 'undefined') {

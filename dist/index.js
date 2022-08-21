@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.validateCryptoExtraId = exports.validateCryptoAddress = exports.getCryptoCurrencyDataById = exports.findCryptoCurrencyData = exports.getAllCoins = exports.getAllByNetwork = void 0;
+exports.validateCryptoExtraId = exports.validateCryptoAddress = exports.getAllByTicker = exports.getCryptoCurrencyDataById = exports.findCryptoCurrencyData = exports.getAllCoins = exports.getAllByNetwork = void 0;
 const information_coins_json_1 = __importDefault(require("./information-coins.json"));
 const lib_1 = require("./lib");
 const { byNetworks, byContracts, byIds } = (0, lib_1.prepareList)(information_coins_json_1.default);
@@ -30,6 +30,10 @@ function getCryptoCurrencyDataById(id) {
     return byIds[id] || null;
 }
 exports.getCryptoCurrencyDataById = getCryptoCurrencyDataById;
+function getAllByTicker(ticker) {
+    return information_coins_json_1.default.filter((item) => item.ticker === ticker);
+}
+exports.getAllByTicker = getAllByTicker;
 function validateCryptoAddress(address, params) {
     if (!params)
         return null;

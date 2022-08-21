@@ -25,5 +25,6 @@ export declare function getAllByNetwork(network: string): Coin[];
 export declare function getAllCoins(): Coin[];
 export declare function findCryptoCurrencyData({ ticker, network, contract }: Params): Coin | null;
 export declare function getCryptoCurrencyDataById(id: number): Coin;
+export declare function getAllByTicker(ticker: string): Coin[];
 export declare function validateCryptoAddress(address: string, params: Params | Coin): boolean | null;
 export declare function validateCryptoExtraId(extraId: string, params: Params | Coin): boolean;
