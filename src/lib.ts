@@ -1,6 +1,7 @@
 export function prepareInformation (item) {
-  const isToken = item.network !== item.ticker
   if (!item) return null
+
+  const isToken = item.network !== item.ticker
   if (item.network === 'eth' && isToken) {
     Object.assign(item, {
       regex_address: '^(0x)[0-9A-Fa-f]{40}$',

@@ -24,5 +24,8 @@ export function findCryptoCurrencyMeta ({ ticker, network, contract }: Params): 
   }
   if (!ticker) return null
   key = `${ticker}${network}`
-  return prepareInformation(byNetworks[key])
+  if (byNetworks[key]) {
+    return prepareInformation(byNetworks[key])
+  }
+  return null
 }
