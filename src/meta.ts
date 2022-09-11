@@ -15,17 +15,17 @@ export interface Meta extends SharedData {
   algorithm?: string
 }
 
-const { byNetworks, byContracts } = prepareList(data)
+const { byFamily, byContracts } = prepareList(data)
 
-export function findCryptoCurrencyMeta ({ ticker, network, contract }: Params): Meta | null {
-  let key = `${network}${contract?.toLowerCase()}`
+export function findCryptoCurrencyMeta ({ ticker, family, contract }: Params): Meta | null {
+  let key = `${family}${contract?.toLowerCase()}`
   if (contract && byContracts[key]) {
     return prepareInformation(byContracts[key])
   }
   if (!ticker) return null
-  key = `${ticker}${network}`
-  if (byNetworks[key]) {
-    return prepareInformation(byNetworks[key])
+  key = `${ticker}${family}`
+  if (byFamily[key]) {
+    return prepareInformation(byFamily[key])
   }
   return null
 }

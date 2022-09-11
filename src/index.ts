@@ -5,12 +5,12 @@ import { prepareInformation, prepareList } from './lib'
 
 export type Params = {
   ticker?: string,
-  network: string,
+  family: string,
   contract?: string
 }
 
 export type SharedData = {
-  network: string,
+  family: string,
   ticker: string,
   title: string,
   regex_address:string,
@@ -29,25 +29,25 @@ export interface Coin extends SharedData {
   color?: string
 }
 
-const { byNetworks, byContracts, byIds } = prepareList(data)
+const { byFamily, byContracts, byIds } = prepareList(data)
 
-export function getAllByNetwork (network: string): Coin[] {
-  return Object.values(byNetworks).filter((el: Coin) => el.network === network) as Coin[] || []
+export function getAllByFamily (family: string): Coin[] {
+  return Object.values(byFamily).filter((el: Coin) => el.family === family) as Coin[] || []
 }
 
 export function getAllCoins () {
-  return Object.values(byNetworks).filter((el: Coin) => el.network === el.ticker) as Coin[]
+  return Object.values(byFamily).filter((el: Coin) => el.family === el.ticker) as Coin[]
 }
 
-export function findCryptoCurrencyData ({ ticker, network, contract }: Params): Coin | null {
-  let key = `${network}${contract?.toLowerCase()}`
+export function findCryptoCurrencyData ({ ticker, family, contract }: Params): Coin | null {
+  let key = `${family}${contract?.toLowerCase()}`
   if (contract && byContracts[key]) {
     return prepareInformation(byContracts[key])
   }
   if (!ticker) return null
-  key = `${ticker}${network}`
-  if (byNetworks[key]) {
-    return prepareInformation(byNetworks[key])
+  key = `${ticker}${family}`
+  if (byFamily[key]) {
+    return prepareInformation(byFamily[key])
   }
   return null
 }

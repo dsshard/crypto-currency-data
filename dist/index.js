@@ -3,28 +3,28 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.validateCryptoExtraId = exports.validateCryptoAddress = exports.getAllByTicker = exports.getCryptoCurrencyDataById = exports.findCryptoCurrencyData = exports.getAllCoins = exports.getAllByNetwork = void 0;
+exports.validateCryptoExtraId = exports.validateCryptoAddress = exports.getAllByTicker = exports.getCryptoCurrencyDataById = exports.findCryptoCurrencyData = exports.getAllCoins = exports.getAllByFamily = void 0;
 const information_coins_json_1 = __importDefault(require("./information-coins.json"));
 const lib_1 = require("./lib");
-const { byNetworks, byContracts, byIds } = (0, lib_1.prepareList)(information_coins_json_1.default);
-function getAllByNetwork(network) {
-    return Object.values(byNetworks).filter((el) => el.network === network) || [];
+const { byFamily, byContracts, byIds } = (0, lib_1.prepareList)(information_coins_json_1.default);
+function getAllByFamily(family) {
+    return Object.values(byFamily).filter((el) => el.family === family) || [];
 }
-exports.getAllByNetwork = getAllByNetwork;
+exports.getAllByFamily = getAllByFamily;
 function getAllCoins() {
-    return Object.values(byNetworks).filter((el) => el.network === el.ticker);
+    return Object.values(byFamily).filter((el) => el.family === el.ticker);
 }
 exports.getAllCoins = getAllCoins;
-function findCryptoCurrencyData({ ticker, network, contract }) {
-    let key = `${network}${contract === null || contract === void 0 ? void 0 : contract.toLowerCase()}`;
+function findCryptoCurrencyData({ ticker, family, contract }) {
+    let key = `${family}${contract === null || contract === void 0 ? void 0 : contract.toLowerCase()}`;
     if (contract && byContracts[key]) {
         return (0, lib_1.prepareInformation)(byContracts[key]);
     }
     if (!ticker)
         return null;
-    key = `${ticker}${network}`;
-    if (byNetworks[key]) {
-        return (0, lib_1.prepareInformation)(byNetworks[key]);
+    key = `${ticker}${family}`;
+    if (byFamily[key]) {
+        return (0, lib_1.prepareInformation)(byFamily[key]);
     }
     return null;
 }

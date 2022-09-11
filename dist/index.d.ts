@@ -1,10 +1,10 @@
 export declare type Params = {
     ticker?: string;
-    network: string;
+    family: string;
     contract?: string;
 };
 export declare type SharedData = {
-    network: string;
+    family: string;
     ticker: string;
     title: string;
     regex_address: string;
@@ -21,9 +21,9 @@ export interface Coin extends SharedData {
     decimals_display?: number;
     color?: string;
 }
-export declare function getAllByNetwork(network: string): Coin[];
+export declare function getAllByFamily(family: string): Coin[];
 export declare function getAllCoins(): Coin[];
-export declare function findCryptoCurrencyData({ ticker, network, contract }: Params): Coin | null;
+export declare function findCryptoCurrencyData({ ticker, family, contract }: Params): Coin | null;
 export declare function getCryptoCurrencyDataById(id: number): Coin;
 export declare function getAllByTicker(ticker: string): Coin[];
 export declare function validateCryptoAddress(address: string, params: Params | Coin): boolean | null;

@@ -1,4 +1,9 @@
-import { findCryptoCurrencyData, getAllByNetwork, getCryptoCurrencyDataById, validateCryptoAddress } from './index'
+import {
+  findCryptoCurrencyData,
+  getAllByFamily,
+  getCryptoCurrencyDataById,
+  validateCryptoAddress
+} from './index'
 
 import data from './information-coins.json'
 
@@ -10,16 +15,16 @@ describe('Index', () => {
 
   test('validate element', () => {
     const el = getCryptoCurrencyDataById(2858)
-    expect(el.network === 'bsc').toBe(true)
+    expect(el.family === 'bsc').toBe(true)
   })
 
   test('validate element', () => {
-    const el = findCryptoCurrencyData({ ticker: 'usdt', network: 'eth' })
+    const el = findCryptoCurrencyData({ ticker: 'usdt', family: 'eth' })
     expect(el.contract === '0xdAC17F958D2ee523a2206206994597C13D831ec7')
   })
 
   test('unique contracts eth', () => {
-    const els = getAllByNetwork('eth')
+    const els = getAllByFamily('eth')
 
     const valueArr = els.map(function (item) { return item.contract })
     const unique = [...new Set(valueArr)]
@@ -27,7 +32,7 @@ describe('Index', () => {
   })
 
   test('unique contracts bsc', () => {
-    const els = getAllByNetwork('bsc')
+    const els = getAllByFamily('bsc')
 
     const valueArr = els.map(function (item) { return item.contract })
     const unique = [...new Set(valueArr)]
@@ -41,7 +46,7 @@ describe('Index', () => {
   })
 
   test('unique contracts trx', () => {
-    const els = getAllByNetwork('trx')
+    const els = getAllByFamily('trx')
 
     const valueArr = els.map(function (item) { return item.contract })
     const unique = [...new Set(valueArr)]
@@ -49,14 +54,14 @@ describe('Index', () => {
   })
 
   test('validate eth address', () => {
-    const el = findCryptoCurrencyData({ ticker: 'usdt', network: 'eth' })
+    const el = findCryptoCurrencyData({ ticker: 'usdt', family: 'eth' })
     const isValid = validateCryptoAddress('0xdAC17F958D2ee523a2206206994597C13D831ec7', el)
 
     expect(isValid).toBe(true)
   })
 
   test('check invalid parameters', () => {
-    const el = findCryptoCurrencyData({ ticker: 'invalid', network: 'invalid' })
+    const el = findCryptoCurrencyData({ ticker: 'invalid', family: 'invalid' })
 
     expect(el === null)
 

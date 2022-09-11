@@ -1,8 +1,8 @@
 export function prepareInformation (item) {
   if (!item) return null
 
-  const isToken = item.network !== item.ticker
-  if (item.network === 'eth' && isToken) {
+  const isToken = item.family !== item.ticker
+  if (item.family === 'eth' && isToken) {
     Object.assign(item, {
       regex_address: '^(0x)[0-9A-Fa-f]{40}$',
       url_block: 'https://etherscan.io/block/',
@@ -11,7 +11,7 @@ export function prepareInformation (item) {
     })
   }
 
-  if (item.network === 'bsc' && isToken) {
+  if (item.family === 'bsc' && isToken) {
     Object.assign(item, {
       regex_address: '^(0x)[0-9A-Fa-f]{40}$',
       url_block: 'https://bscscan.com/block/',
@@ -20,7 +20,7 @@ export function prepareInformation (item) {
     })
   }
 
-  if (item.network === 'trx' && isToken) {
+  if (item.family === 'trx' && isToken) {
     Object.assign(item, {
       regex_address: '^T[1-9A-HJ-NP-Za-km-z]{33}$',
       url_block: 'https://tronscan.org/#/block/',
@@ -29,7 +29,7 @@ export function prepareInformation (item) {
     })
   }
 
-  if (item.network === 'bnb' && isToken) {
+  if (item.family === 'bnb' && isToken) {
     Object.assign(item, {
       regex_address: '^(bnb1)[0-9a-z]{38}$',
       regex_extra_id: '^[0-9A-Za-z\\-_]{1,120}$',
@@ -44,7 +44,7 @@ export function prepareInformation (item) {
 
 export function prepareList (list) {
   const byContracts = {}
-  const byNetworks = {}
+  const byFamily = {}
   const byIds = {}
 
   for (const coin of list) {
@@ -52,11 +52,11 @@ export function prepareList (list) {
       byIds[coin.id] = coin
     }
     if (coin.contract) {
-      const key = `${coin.network}${coin.contract.toLowerCase()}`
+      const key = `${coin.family}${coin.contract.toLowerCase()}`
       byContracts[key] = coin
     }
-    const key = `${coin.ticker}${coin.network}`
-    byNetworks[key] = coin
+    const key = `${coin.ticker}${coin.family}`
+    byFamily[key] = coin
   }
-  return { byContracts, byNetworks, byIds }
+  return { byContracts, byFamily, byIds }
 }

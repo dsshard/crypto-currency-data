@@ -8,4 +8,4 @@ export interface Meta extends SharedData {
     proof_type?: string;
     algorithm?: string;
 }
-export declare function findCryptoCurrencyMeta({ ticker, network, contract }: Params): Meta | null;
+export declare function findCryptoCurrencyMeta({ ticker, family, contract }: Params): Meta | null;

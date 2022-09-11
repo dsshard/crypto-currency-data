@@ -17,7 +17,7 @@
     "rootDir": "src",
     "baseUrl": "./src"
   },
-  "include": ["./src/**/*", "./src/**/*.json"],
+  "include": ["./src/**/*", "./src/**/*.json", "./src/*.json"],
   "exclude": [
     "**/*.d.ts",
     "./node_modules",
