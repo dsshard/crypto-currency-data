@@ -33028,5 +33028,14 @@
     "decimals": 18,
     "color": "#000000",
     "id": 3630
+  },
+  {
+    "family": "trx",
+    "ticker": "twt",
+    "title": "TrustWallet",
+    "decimals": 18,
+    "contract": "TGsSerMvqgbjrAtx5KUt3DViPpBckvexRC",
+    "color": "#000000",
+    "id": 3631
   }
 ]
