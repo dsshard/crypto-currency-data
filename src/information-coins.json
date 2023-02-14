@@ -614,7 +614,7 @@
     "url_block": "https://binance.mintscan.io/blocks/",
     "url_address": "https://binance.mintscan.io/account/",
     "url_tx": "https://binance.mintscan.io/txs/",
-    "decimals": 18,
+    "decimals": 8,
     "color": "#e8b342",
     "id": 61
   },
