@@ -2306,7 +2306,7 @@
     "url_block": "https://polygonscan.com/block/",
     "url_address": "https://polygonscan.com/address/",
     "url_tx": "https://polygonscan.com/tx/",
-    "decimals": 10,
+    "decimals": 18,
     "decimals_display": 5,
     "color": "#8247e5",
     "id": 232
