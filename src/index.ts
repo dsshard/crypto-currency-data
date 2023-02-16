@@ -24,8 +24,6 @@ export type SharedData = {
 
 export interface Coin extends SharedData {
   id: number,
-  decimals: number,
-  decimals_display?: number,
   color?: string
 }
 

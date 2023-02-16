@@ -17,8 +17,6 @@ export declare type SharedData = {
 };
 export interface Coin extends SharedData {
     id: number;
-    decimals: number;
-    decimals_display?: number;
     color?: string;
 }
 export declare function getAllByFamily(family: string): Coin[];
