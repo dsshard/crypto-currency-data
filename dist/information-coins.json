@@ -29213,5 +29213,13 @@
         "contract": "TGsSerMvqgbjrAtx5KUt3DViPpBckvexRC",
         "color": "#000000",
         "id": 3631
+    },
+    {
+        "family": "bsc",
+        "ticker": "cheel",
+        "title": "Cheelee",
+        "contract": "0x1F1C90aEb2fd13EA972F0a71e35c0753848e3DB0",
+        "color": "#000000",
+        "id": 3632
     }
 ]
